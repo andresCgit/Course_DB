@@ -1,4 +1,4 @@
--- Like se tiene que parecer
+-- Like, lo que se parece se tiene que parecer
 SELECT * FROM users WHERE users_email LIKE '%@%';
 
-SELECT * FROM users WHERE users_email LIKE 'gmail.com';
+SELECT * FROM users WHERE users_email LIKE '%gmail.com';
