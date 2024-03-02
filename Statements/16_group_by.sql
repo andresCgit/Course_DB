@@ -22,3 +22,8 @@ y la cantidad de usuarios con esa edad,
 SELECT users_age, COUNT(*) AS num_users
 FROM users WHERE users_email like 'sara%'
 GROUP BY users_age order by users_age asc;
+
+
+SELECT users_name, COUNT(*) AS num_users
+FROM users WHERE users_email like '%com'
+GROUP BY users_name order by users_name desc;
